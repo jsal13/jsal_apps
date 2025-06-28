@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Random Piano Chord Generator</title>
+    <link rel="stylesheet" href="css/piano-chord-generator.css">
+
+</head>
+<body>
+    <div class="container">
+        <h1>🎹 Piano Chord Generator</h1>
+        
+        <div class="chord-display" id="chordDisplay">
+            <div class="chord-name" id="chordName">C Major</div>
+            <div class="chord-notes" id="chordNotes">C - E - G</div>
+            <div class="chord-type" id="chordType">Major Triad</div>
+        </div>
+        
+        <div class="controls">
+            <button onclick="generateRandomChord()">New Chord</button>
+            <button onclick="toggleAutoplay()" id="autoplayBtn">Pause Auto</button>
+        </div>
+        
+        <div class="timer" id="timer">Next chord in: 20s</div>
+        
+        <div class="progress-bar">
+            <div class="progress-fill" id="progressFill"></div>
+        </div>
+    </div>
+
+    <script src="js/piano-chord-generator.js"></script>
+</body>
+</html>
