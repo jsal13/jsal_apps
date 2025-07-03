@@ -12,70 +12,6 @@ body {
   min-height: 100vh;
 }
 
-.container {
-  max-width: 1200px;
-  margin: 0 auto;
-  padding: 20px;
-  max-width: 600px;
-}
-
-.header {
-  background: rgba(255, 255, 255, 0.95);
-  backdrop-filter: blur(10px);
-  border-radius: 20px;
-  padding: 40px;
-  text-align: center;
-  margin-bottom: 30px;
-  box-shadow: 0 20px 40px rgba(0, 0, 0, 0.1);
-}
-
-.header h1 {
-  font-size: 3rem;
-  font-weight: 300;
-  color: #2c3e50;
-  margin-bottom: 10px;
-  letter-spacing: 3px;
-}
-
-.header .subtitle {
-  font-size: 1.2rem;
-  color: #7f8c8d;
-  font-weight: 300;
-}
-
-.main-content {
-  display: grid;
-  grid-template-columns: 1fr;
-  gap: 30px;
-  margin-bottom: 30px;
-}
-
-.card {
-  background: rgba(255, 255, 255, 0.95);
-  backdrop-filter: blur(10px);
-  border-radius: 20px;
-  padding: 30px;
-  box-shadow: 0 15px 30px rgba(0, 0, 0, 0.1);
-}
-
-.card h2 {
-  font-size: 1.8rem;
-  color: #2c3e50;
-  margin-bottom: 20px;
-  font-weight: 400;
-  border-bottom: 2px solid #3498db;
-  padding-bottom: 10px;
-}
-
-.card > img {
-  /* Centers images */
-  display: block;
-  margin: auto auto 10px;
-  max-width: 100%;
-  height: auto;
-}
-
-
 ol.exercise-list {
     list-style-position: inside;
     padding-left: 16px;
@@ -91,4 +27,9 @@ ol.exercise-list li img {
     vertical-align: middle;
     margin-right: 8px;
     margin-left: 12px;
+}
+
+.accordion-button {
+  background-color: #cfe2ff !important;
+  color: #052c65 !important;
 }

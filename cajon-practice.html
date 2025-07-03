@@ -6,85 +6,233 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Cajon Practice</title>
     <link rel="stylesheet" href="css/cajon-practice.css">
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/bootstrap/5.3.0/css/bootstrap.min.css" rel="stylesheet">
+
 </head>
 
 <body>
-    <div class="container">
-        <!-- Header Section -->
-        <header class="header">
-            <h1>📦 CAJON PRACTICE</h1>
-        </header>
+    <div class="container mt-5">
+        <div class="row justify-content-center">
+            <div class="col-lg-8">
+                <!-- Header Section -->
+                <h1 class="text-center mb-4">📦 CAJON PRACTICE</h1>
+                <div class="accordion" id="mainAccordion">
+                    <div class="accordion-item">
+                        <h2 class="accordion-header" id="headerExplaination">
+                            <button class="accordion-button" type="button" data-bs-toggle="collapse"
+                                data-bs-target="#sectionExplanation" aria-expanded="true"
+                                aria-controls="sectionExplanation">
+                                <span class="h5">Explanation</span>
+                            </button>
+                        </h2>
+                        <div id="sectionExplanation" class="accordion-collapse collapse show"
+                            aria-labelledby="headerExplaination" data-bs-parent="#mainAccordion">
+                            <div class="accordion-body">
 
-        <!-- Main Content Grid -->
-        <section class="main-content">
-            <div class="card">
-                <h2>Explanation</h2>
-                <p>The notes below correspond (from lowest to highest) to:</p>
-                </br>
-                <img src="assets/images/cajon-practice/cajon_notes.png" alt="Cajon Notes on Staff">
-                </br />
-                <ul>
-                    <li>
-                        <p><b>Bass</b>: the lowest thumping sound you get from the center of the face cajon</p>
-                    </li>
-                    <li>
-                        <p><b>Snare</b>: the sharp, crisp sound you get from slapping the part of the face of the cajon
-                            with the snares</p>
-                    </li>
-                    <li>
-                        <p><b>Hihat</b>: the sharp, high sound you get from slapping the edge of the cajon</p>
-                    </li>
-                    <li>
-                        <p><b>Ride</b>: either an actual cymbal or a stylized version of the hihat (a flam on the edge,
-                            for example)</p>
-                    </li>
-                </ul>
+                                <p>The notes below correspond (from lowest to highest) to:</p>
+                                </br>
+                                <img src="assets/images/cajon-practice/cajon_notes.png" class="mx-auto d-block"
+                                    alt="Cajon Notes on Staff">
+                                </br />
+                                <ul>
+                                    <li>
+                                        <p><b>Bass</b>: the lowest thumping sound you get from the center of the
+                                            face cajon
+                                        </p>
+                                    </li>
+                                    <li>
+                                        <p><b>Snare</b>: the sharp, crisp sound you get from slapping the part of
+                                            the face
+                                            of the cajon
+                                            with the snares</p>
+                                    </li>
+                                    <li>
+                                        <p><b>Hihat</b>: the sharp, high sound you get from slapping the edge of the
+                                            cajon
+                                        </p>
+                                    </li>
+                                    <li>
+                                        <p><b>Ride</b>: either an actual cymbal or a stylized version of the hihat
+                                            (a flam
+                                            on the edge,
+                                            for example)</p>
+                                    </li>
+                                </ul>
 
-                <br />
-                <hr />
-                <br />
-                <p><b>Unless otherwise mentioned, all times are in 4/4.</b></p>
-            </div>
+                                <br />
 
-            <div class="card">
+                                <p><b>Unless otherwise mentioned, all times are in 4/4.</b></p>
+                            </div>
+                        </div>
+                    </div>
 
-                <h2>Bass-Only Rhythms</h2>
+                    <div class="accordion-item">
+                        <h2 class="accordion-header" id="bassOnlyRhythmsHeader">
+                            <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+                                data-bs-target="#bassOnlyRhythms" aria-expanded="false" aria-controls="bassOnlyRhythms">
+                                <span class="h5">Bass-Only Rhythms</span>
+                            </button>
+                        </h2>
+                        <div id="bassOnlyRhythms" class="accordion-collapse collapse"
+                            aria-labelledby="bassOnlyRhythmsHeader" data-bs-parent="#mainAccordion">
+                            <div class="accordion-body">
 
-                <p>The "L" and "R" correspond to the hand you play the note below it with (left or right).</p>
-                <br />
-                <br />
+                                <p>The "L" and "R" correspond to the hand you play the note below it with (left or
+                                    right).
+                                </p>
+                                <br />
 
-                <div class="exercises">
-                    <ol class="exercise-list">
-                        <li><img src="assets/images/cajon-practice/bass_only__exercise_1_RIGHT.png"
-                                alt="Bass Only Exercise 1 RIGHT"></li>
-                        <li><img src="assets/images/cajon-practice/bass_only__exercise_1_LEFT.png"
-                                alt="Bass Only Exercise 1 LEFT"></li>
-                        <li><img src="assets/images/cajon-practice/bass_only__exercise_2_RIGHT.png"
-                                alt="Bass Only Exercise 2 RIGHT"></li>
-                        <li><img src="assets/images/cajon-practice/bass_only__exercise_2_LEFT.png"
-                                alt="Bass Only Exercise 2 LEFT"></li>
-                        <li><img src="assets/images/cajon-practice/bass_only__exercise_3_RIGHT.png"
-                                alt="Bass Only Exercise 3 RIGHT"></li>
-                        <li><img src="assets/images/cajon-practice/bass_only__exercise_3_LEFT.png"
-                                alt="Bass Only Exercise 3 LEFT"></li>
-                        <li><img src="assets/images/cajon-practice/bass_only__exercise_4_RIGHT.png"
-                                alt="Bass Only Exercise 4 RIGHT"></li>
-                        <li><img src="assets/images/cajon-practice/bass_only__exercise_4_LEFT.png"
-                                alt="Bass Only Exercise 4 LEFT"></li>
-                        <li><img src="assets/images/cajon-practice/bass_only__exercise_5_RIGHT.png"
-                                alt="Bass Only Exercise 5 RIGHT"></li>
-                        <li><img src="assets/images/cajon-practice/bass_only__exercise_5_LEFT.png"
-                                alt="Bass Only Exercise 5 LEFT"></li>
-                        <li><img src="assets/images/cajon-practice/bass_only__exercise_6_RIGHT.png"
-                                alt="Bass Only Exercise 6 RIGHT"></li>
-                        <li><img src="assets/images/cajon-practice/bass_only__exercise_6_LEFT.png"
-                                alt="Bass Only Exercise 6 LEFT"></li>
-                    </ol>
+
+                                <div class="exercises">
+                                    <ol class="exercise-list">
+                                        <li><img src="assets/images/cajon-practice/bass_only__exercise_1_RIGHT.png"
+                                                alt="Bass Only Exercise 1 RIGHT"></li>
+                                        <li><img src="assets/images/cajon-practice/bass_only__exercise_1_LEFT.png"
+                                                alt="Bass Only Exercise 1 LEFT"></li>
+                                        <li><img src="assets/images/cajon-practice/bass_only__exercise_2_RIGHT.png"
+                                                alt="Bass Only Exercise 2 RIGHT"></li>
+                                        <li><img src="assets/images/cajon-practice/bass_only__exercise_2_LEFT.png"
+                                                alt="Bass Only Exercise 2 LEFT"></li>
+                                        <li><img src="assets/images/cajon-practice/bass_only__exercise_3_RIGHT.png"
+                                                alt="Bass Only Exercise 3 RIGHT"></li>
+                                        <li><img src="assets/images/cajon-practice/bass_only__exercise_3_LEFT.png"
+                                                alt="Bass Only Exercise 3 LEFT"></li>
+                                        <li><img src="assets/images/cajon-practice/bass_only__exercise_4_RIGHT.png"
+                                                alt="Bass Only Exercise 4 RIGHT"></li>
+                                        <li><img src="assets/images/cajon-practice/bass_only__exercise_4_LEFT.png"
+                                                alt="Bass Only Exercise 4 LEFT"></li>
+                                        <li><img src="assets/images/cajon-practice/bass_only__exercise_5_RIGHT.png"
+                                                alt="Bass Only Exercise 5 RIGHT"></li>
+                                        <li><img src="assets/images/cajon-practice/bass_only__exercise_5_LEFT.png"
+                                                alt="Bass Only Exercise 5 LEFT"></li>
+                                        <li><img src="assets/images/cajon-practice/bass_only__exercise_6_RIGHT.png"
+                                                alt="Bass Only Exercise 6 RIGHT"></li>
+                                        <li><img src="assets/images/cajon-practice/bass_only__exercise_6_LEFT.png"
+                                                alt="Bass Only Exercise 6 LEFT"></li>
+                                    </ol>
+                                </div>
+                            </div>
+                        </div>
+
+
+
+
+
+
+
+
+
+
+                    </div>
+
+
+                    <div class="accordion-item">
+                        <h2 class="accordion-header" id="bassOnlyRhythmsWithAccentHeader">
+                            <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+                                data-bs-target="#bassOnlyRhythmsWithAccent" aria-expanded="false"
+                                aria-controls="bassOnlyRhythmsWithAccent">
+                                <span class="h5">Bass-Only Rhythms with Accents</span>
+                            </button>
+                        </h2>
+                        <div id="bassOnlyRhythmsWithAccent" class="accordion-collapse collapse"
+                            aria-labelledby="bassOnlyRhythmsWithAccentHeader" data-bs-parent="#mainAccordion">
+                            <div class="accordion-body">
+
+                                <p>The accent mark (>) indicates a stronger hit on that note: emphasize it when you hit
+                                    it!
+                                </p>
+                                <br />
+
+
+                                <div class="exercises">
+                                    <ol class="exercise-list">
+                                        <li><img src="assets/images/cajon-practice/bass_only_accents__exercise_1_RIGHT.png"
+                                                alt="Bass Only Accents Exercise 1 RIGHT"></li>
+                                        <li><img src="assets/images/cajon-practice/bass_only_accents__exercise_1_LEFT.png"
+                                                alt="Bass Only Accents Exercise 1 LEFT"></li>
+                                        <li><img src="assets/images/cajon-practice/bass_only_accents__exercise_2_RIGHT.png"
+                                                alt="Bass Only Accents Exercise 2 RIGHT"></li>
+                                        <li><img src="assets/images/cajon-practice/bass_only_accents__exercise_2_LEFT.png"
+                                                alt="Bass Only Accents Exercise 2 LEFT"></li>
+                                        <li><img src="assets/images/cajon-practice/bass_only_accents__exercise_3_RIGHT.png"
+                                                alt="Bass Only Accents Exercise 3 RIGHT"></li>
+                                        <li><img src="assets/images/cajon-practice/bass_only_accents__exercise_3_LEFT.png"
+                                                alt="Bass Only Accents Exercise 3 LEFT"></li>
+                                        <li><img src="assets/images/cajon-practice/bass_only_accents__exercise_4_RIGHT.png"
+                                                alt="Bass Only Accents Exercise 4 RIGHT"></li>
+                                        <li><img src="assets/images/cajon-practice/bass_only_accents__exercise_4_LEFT.png"
+                                                alt="Bass Only Accents Exercise 4 LEFT"></li>
+                                        <li><img src="assets/images/cajon-practice/bass_only_accents__exercise_5_RIGHT.png"
+                                                alt="Bass Only Accents Exercise 5 RIGHT"></li>
+                                        <li><img src="assets/images/cajon-practice/bass_only_accents__exercise_5_LEFT.png"
+                                                alt="Bass Only Accents Exercise 5 LEFT"></li>
+                                        <li><img src="assets/images/cajon-practice/bass_only_accents__exercise_6_RIGHT.png"
+                                                alt="Bass Only Accents Exercise 6 RIGHT"></li>
+                                        <li><img src="assets/images/cajon-practice/bass_only_accents__exercise_6_LEFT.png"
+                                                alt="Bass Only Accents Exercise 6 LEFT"></li>
+                                        <li><img src="assets/images/cajon-practice/bass_only_accents__exercise_7_RIGHT.png"
+                                                alt="Bass Only Accents Exercise 7 RIGHT"></li>
+                                        <li><img src="assets/images/cajon-practice/bass_only_accents__exercise_7_LEFT.png"
+                                                alt="Bass Only Accents Exercise 7 LEFT"></li>
+                                        <li><img src="assets/images/cajon-practice/bass_only_accents__exercise_8_RIGHT.png"
+                                                alt="Bass Only Accents Exercise 8 RIGHT"></li>
+                                        <li><img src="assets/images/cajon-practice/bass_only_accents__exercise_8_LEFT.png"
+                                                alt="Bass Only Accents Exercise 8 LEFT"></li>
+                                        <li><img src="assets/images/cajon-practice/bass_only_accents__exercise_9_RIGHT.png"
+                                                alt="Bass Only Accents Exercise 9 RIGHT"></li>
+                                        <li><img src="assets/images/cajon-practice/bass_only_accents__exercise_9_LEFT.png"
+                                                alt="Bass Only Accents Exercise 9 LEFT"></li>
+                                        <li><img src="assets/images/cajon-practice/bass_only_accents__exercise_10_RIGHT.png"
+                                                alt="Bass Only Accents Exercise 10 RIGHT"></li>
+                                        <li><img src="assets/images/cajon-practice/bass_only_accents__exercise_10_LEFT.png"
+                                                alt="Bass Only Accents Exercise 10 LEFT"></li>
+                                        <li><img src="assets/images/cajon-practice/bass_only_accents__exercise_11_RIGHT.png"
+                                                alt="Bass Only Accents Exercise 11 RIGHT"></li>
+                                        <li><img src="assets/images/cajon-practice/bass_only_accents__exercise_11_LEFT.png"
+                                                alt="Bass Only Accents Exercise 11 LEFT"></li>
+                                        <li><img src="assets/images/cajon-practice/bass_only_accents__exercise_12_RIGHT.png"
+                                                alt="Bass Only Accents Exercise 12 RIGHT"></li>
+                                        <li><img src="assets/images/cajon-practice/bass_only_accents__exercise_12_LEFT.png"
+                                                alt="Bass Only Accents Exercise 12 LEFT"></li>
+                                        <li><img src="assets/images/cajon-practice/bass_only_accents__exercise_13_RIGHT.png"
+                                                alt="Bass Only Accents Exercise 13 RIGHT"></li>
+                                        <li><img src="assets/images/cajon-practice/bass_only_accents__exercise_13_LEFT.png"
+                                                alt="Bass Only Accents Exercise 13 LEFT"></li>
+                                        <li><img src="assets/images/cajon-practice/bass_only_accents__exercise_14_RIGHT.png"
+                                                alt="Bass Only Accents Exercise 14 RIGHT"></li>
+                                        <li><img src="assets/images/cajon-practice/bass_only_accents__exercise_14_LEFT.png"
+                                                alt="Bass Only Accents Exercise 14 LEFT"></li>
+                                        <li><img src="assets/images/cajon-practice/bass_only_accents__exercise_15_RIGHT.png"
+                                                alt="Bass Only Accents Exercise 15 RIGHT"></li>
+                                        <li><img src="assets/images/cajon-practice/bass_only_accents__exercise_15_LEFT.png"
+                                                alt="Bass Only Accents Exercise 15 LEFT"></li>
+                                        <li><img src="assets/images/cajon-practice/bass_only_accents__exercise_16_RIGHT.png"
+                                                alt="Bass Only Accents Exercise 16 RIGHT"></li>
+                                        <li><img src="assets/images/cajon-practice/bass_only_accents__exercise_16_LEFT.png"
+                                                alt="Bass Only Accents Exercise 16 LEFT"></li>
+                                        <li><img src="assets/images/cajon-practice/bass_only_accents__exercise_17_RIGHT.png"
+                                                alt="Bass Only Accents Exercise 17 RIGHT"></li>
+                                        <li><img src="assets/images/cajon-practice/bass_only_accents__exercise_17_LEFT.png"
+                                                alt="Bass Only Accents Exercise 17 LEFT"></li>
+                                        <li><img src="assets/images/cajon-practice/bass_only_accents__exercise_18_RIGHT.png"
+                                                alt="Bass Only Accents Exercise 18 RIGHT"></li>
+                                        <li><img src="assets/images/cajon-practice/bass_only_accents__exercise_18_LEFT.png"
+                                                alt="Bass Only Accents Exercise 18 LEFT"></li>
+                                        <li><img src="assets/images/cajon-practice/bass_only_accents__exercise_19_RIGHT.png"
+                                                alt="Bass Only Accents Exercise 19 RIGHT"></li>
+                                        <li><img src="assets/images/cajon-practice/bass_only_accents__exercise_19_LEFT.png"
+                                                alt="Bass Only Accents Exercise 19 LEFT"></li>
+
+                                    </ol>
+                                </div>
+                            </div>
+                        </div>
+
+                    </div>
                 </div>
             </div>
-        </section>
-    </div>
+        </div>
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/bootstrap/5.3.0/js/bootstrap.bundle.min.js"></script>
 </body>
 
 </html>
